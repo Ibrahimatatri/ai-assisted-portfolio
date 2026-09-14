@@ -1885,3 +1885,19 @@ textarea.form-input::-webkit-resizer { display: none; }
 article[data-page] {
   padding-top: 75px;
 }
+
+.project-icon-card {
+  height: 160px;
+  margin-bottom: 15px;
+  border: 1px solid var(--jet);
+  border-radius: 16px;
+  background: var(--bg-gradient-jet);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.project-icon-card ion-icon {
+  font-size: 48px;
+  color: var(--orange-yellow-crayola);
+}
